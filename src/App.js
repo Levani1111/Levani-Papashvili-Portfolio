@@ -1,11 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
+import Layout from './components/Layout';
 
 function App() {
   return (
     <div className="App">
-      <h1>Portfolio</h1>
-      <button className='bg-blue-500 p-2 rounded text-white m-5'>Tailwind button</button>
+      <Layout>
+        <h1>This is my content</h1>
+      </Layout>
     </div>
   );
 }
