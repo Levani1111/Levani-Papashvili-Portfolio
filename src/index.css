@@ -1,3 +1,7 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Poppins:ital@0;1&display=swap');
+
+
 /* ./src/index.css */
 @tailwind base;
 @tailwind components;
