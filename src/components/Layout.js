@@ -7,7 +7,7 @@ function Layout(props) {
   return (
     <div>
       <Headre />
-       <div className='content'>
+       <div className='content font-mont'>
             {props.children}
         </div>
 
