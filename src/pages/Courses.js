@@ -1,14 +1,13 @@
 import React from 'react';
+import Layout from '../components/Layout';
 
 function Courses() {
   return (
-    <div>
-      <h1>Courses page</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Voluptates, quisquam.
-      </p>
-    </div>
+    <Layout>
+      <div>
+        <h1>Courses page</h1>
+      </div>
+    </Layout>
   );
 }
 
