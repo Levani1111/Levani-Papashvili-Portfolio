@@ -6,7 +6,7 @@ function Home() {
     <div>
       <Layout>
         <div>
-          <div className="h-screen bg-theme">
+            <div className="h-screen bg-theme"> {/* Intro section */}
             <div className="grid md:grid-cols-1 grid-cols-2 h-screen items-center">
               <div className="h-1/2">
               <lottie-player 
@@ -22,8 +22,8 @@ function Home() {
                 <h2 className="text-xl md:text-sm md:px-1"><b className="text-gray-300">SOFTWARE ENGINEER – WEB DEVELOPER</b></h2>
               </div>
             </div>
-
-          </div>
+            </div> {/* end intro section */}
+            {/* Technologes */}
         </div>
       </Layout>
     </div>
