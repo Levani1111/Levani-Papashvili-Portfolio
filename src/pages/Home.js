@@ -1,4 +1,5 @@
 import React from "react";
+import { FaHtml5, FaReact } from "react-icons/fa";
 import Layout from "../components/Layout";
 
 function Home() {
@@ -23,7 +24,15 @@ function Home() {
               </div>
             </div>
             </div> {/* end intro section */}
+            
             {/* Technologes */}
+            <div>
+              <div className="grid md:grid-col-1 grid-cols-4">
+                <FaReact  size={150} color="cyan" className="w-full text-center"/>
+                <FaHtml5  size={150} color="orange" className="w-full text-center"/>
+
+              </div>
+            </div>
         </div>
       </Layout>
     </div>
