@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCss3, FaHtml5, FaReact } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaReact, FaJavaScript } from "react-icons/fa";
 import Layout from "../components/Layout";
 
 function Home() {
@@ -31,6 +31,7 @@ function Home() {
                 <FaReact  size={150} color="cyan" className="w-full text-center"/>
                 <FaHtml5  size={150} color="orange" className="w-full text-center"/>
                 <FaCss3  size={150} color="blue" className="w-full text-center"/>
+                <FaJavaScript size={150} color="blue" className="w-full text-center"/>
 
               </div>
             </div>
